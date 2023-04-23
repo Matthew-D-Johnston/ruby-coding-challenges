@@ -1,0 +1,13 @@
+# unpred_weather2.rb
+
+# In the code below, 'sun' is randomly assigned as 'visible' or 'hiden'.
+
+sun = ['visible', 'hidden'].sample
+
+# Write an unless statement that prints "The clouds are blocking the sun!"
+# unless sun equals 'visible'. 
+
+unless sun == 'visible'
+  puts 'The clouds are blocking the sun!'
+end
+
