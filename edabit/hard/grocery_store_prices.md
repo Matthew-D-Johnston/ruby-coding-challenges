@@ -57,3 +57,13 @@ get_prices(["salad ($4.99)"]) ➞ [4.99]
 ---
 
 #### Code
+
+```ruby
+def get_prices(items)
+  return items.map do |item|
+    price = /\d+\.\d+/.match(item)[0]
+    price.to_f
+  end
+end
+```
+
